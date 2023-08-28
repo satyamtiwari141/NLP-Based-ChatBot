@@ -1,12 +1,10 @@
 # NLP based Chatbot in PyTorch
-<img src="https://miro.medium.com/max/1400/1*VqLvWcTKgVpv1idxII591A.jpeg" width="470" height="350">
-
 
 ## Simple chatbot implementation with PyTorch.
 
 * The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
 
-* The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
+* The implementation is straightforward with a Forward Neural net with 2 hidden layers.
 
 * Customization for your own use case is super easy. Just modify intents.json with possible patterns and responses and re-run the training (see below for more info).
 
