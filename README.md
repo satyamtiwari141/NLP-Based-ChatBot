@@ -1,18 +1,5 @@
 # NLP based Chatbot in PyTorch
 
-## Simple chatbot implementation with PyTorch.
-
-* The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
-
-* The implementation is straightforward with a Forward Neural net with 2 hidden layers.
-
-* Customization for your own use case is super easy. Just modify intents.json with possible patterns and responses and re-run the training (see below for more info).
-
-In [this article](https://medium.com/@mlvictoriamaslova/nlp-based-chatbot-in-pytorch-bonus-flask-and-javascript-deployment-474c4e59ceff) on Medium I explain some NLP concepts that underlies building Chatbots.
-
----
-
-
 ## Installation
 
 ### Create an environment
@@ -27,12 +14,6 @@ $ python3 -m venv venv
 
 ### Activate it
 
-Mac / Linux:
-```
-. venv/bin/activate
-```
-Windows:
-
 ```
 venv\Scripts\activate
 ```
@@ -45,7 +26,7 @@ You also need nltk:
 ```
 pip install nltk
 ```
-If you get an error during the first run, you also need to install nltk.tokenize.punkt: Run this once in your terminal:
+If you get an error during the first run, you also need to install nltk. tokenize.Punkt: Run this once in your terminal:
 
 ```
 $ python
@@ -53,13 +34,23 @@ $ python
 >>> nltk.download('punkt')
 ```
 
+# Dependency
+Install all the required dependencies mentioned in the recommended modules
+
 ### Usage
 
-Run
+Run - This will dump data.pth file. And then run
 ```
 python train.py
 ```
-This will dump data.pth file. And then run
+This will be an open command-based chat with ChatBot
 ```
 python chat.py
 ```
+For Run Flask in Website 
+```
+python app.py
+```
+
+
+
