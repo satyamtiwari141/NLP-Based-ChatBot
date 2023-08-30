@@ -1,0 +1,526 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hello",
+        "Hey",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to our hospital.",
+        "Hi there! How can I assist you today?",
+        "Hi! How can I help you with your hospital-related queries?"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I'd like to schedule an appointment",
+        "Book an appointment with a doctor",
+        "Can I schedule a visit?",
+        "I need to see a physician"
+      ],
+      "responses": [
+        "Sure, I can help you with that. Could you please provide your name and the reason for the appointment?",
+        "Of course, I'd be happy to assist you with booking an appointment. Can you please share your name and the purpose of the visit?",
+        "Certainly. To help you book an appointment, I'll need your name and the reason for the visit."
+      ]
+    },
+    {
+      "tag": "medical_records",
+      "patterns": [
+        "How can I access my medical records?",
+        "Retrieve my health history",
+        "I need my medical information",
+        "Access to my patient records"
+      ],
+      "responses": [
+        "To access your medical records, we'll need your patient ID and some verification details. Could you please provide that information?",
+        "Your medical records contain sensitive information. Please provide your patient ID and a verification code to retrieve them.",
+        "Accessing medical records requires secure verification. Can you share your patient ID and the information we need to confirm your identity?"
+      ]
+    },
+    {
+      "tag": "visiting_hours",
+      "patterns": [
+        "What are the visiting hours?",
+        "When can I visit?",
+        "Hospital visiting schedule",
+        "Visitation timings"
+      ],
+      "responses": [
+        "Our visiting hours are from 9:00 AM to 7:00 PM every day. We're here to assist you during that time.",
+        "You can visit the hospital between 9:00 AM and 7:00 PM any day of the week. We look forward to helping you.",
+        "Visiting hours are set from 9:00 AM to 7:00 PM. Feel free to come in during that time for assistance."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in case of an emergency?",
+        "Emergency procedures",
+        "Emergency contact",
+        "Steps during a medical emergency"
+      ],
+      "responses": [
+        "In case of a medical emergency, please call 911 immediately. If you're on our premises, look for the nearest emergency station.",
+        "For emergencies, dial 911 right away. If you're at our hospital, emergency stations are strategically located throughout the building.",
+        "In the event of an emergency, your safety is our top priority. Dial 911 if you're outside or find the nearest emergency station if you're in the hospital."
+      ]
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "Questions about my bill",
+        "Billing inquiries",
+        "Payment details",
+        "Need information on hospital charges"
+      ],
+      "responses": [
+        "For billing inquiries, please provide your patient ID and a brief description of your question. We'll be happy to assist you.",
+        "To help you with billing questions, we'll need your patient ID and some details about the charge. Please share that information.",
+        "Billing matters can be addressed promptly if you provide us with your patient ID and a brief overview of your query."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate your assistance"
+      ],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask.", "Glad I could help!", "Any time!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Take care! If you need assistance in the future, don't hesitate to reach out.", "Goodbye! Have a great day.", "Bye for now!"]
+    },
+    {
+      "tag": "department_info",
+      "patterns": [
+        "Tell me about the hospital departments",
+        "What departments are available?",
+        "List of medical departments",
+        "Which specialties does the hospital offer?"
+      ],
+      "responses": [
+        "We offer a range of medical departments including Cardiology, Orthopedics, Neurology, Gynecology, and more. Which department are you interested in?"
+      ]
+    },
+    {
+      "tag": "doctor_search",
+      "patterns": [
+        "Find me a doctor",
+        "Search for a physician",
+        "Doctor recommendation",
+        "Looking for a specialist"
+      ],
+      "responses": [
+        "Sure, I can help you find a doctor. Could you please specify the medical specialty or the type of doctor you're looking for?",
+        "Absolutely, finding the right doctor is important. Could you please let me know the medical field you need assistance with?"
+      ]
+    },
+
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Provide feedback",
+        "Share my experience",
+        "I want to give feedback"
+      ],
+      "responses": [
+        "We value your feedback. Please feel free to share your experience and suggestions with us. Your input helps us improve our services.",
+        "Thank you for your willingness to provide feedback. We appreciate your thoughts on how we can enhance our hospital experience."
+      ]
+    },
+{
+      "tag": "parking_info",
+      "patterns": [
+        "Where can I park my car?",
+        "Parking facilities",
+        "Car parking options",
+        "Is parking available?"
+      ],
+      "responses": [
+        "We provide ample parking space for patients and visitors. You can park your car in the designated parking area near the hospital entrance."
+      ]
+    },
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "Is there a pharmacy in the hospital?",
+        "Pharmacy services",
+        "Where can I get my medications?",
+        "Is the pharmacy open?"
+      ],
+      "responses": [
+        "Yes, we have an in-house pharmacy that offers a wide range of medications. It's conveniently located near the main lobby."
+      ]
+    },
+    {
+      "tag": "test_results",
+      "patterns": [
+        "When will I receive my test results?",
+        "Lab test reports",
+        "How long does it take for test results?",
+        "Can I check my lab results online?"
+      ],
+      "responses": [
+        "Typically, test results are available within 24 to 48 hours. You can access your lab reports through our online patient portal using your patient ID."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": [
+        "Is there a cafeteria in the hospital?",
+        "Food options",
+        "Where can I get something to eat?",
+        "Is the cafeteria open?"
+      ],
+      "responses": [
+        "Certainly, we have a cafeteria that offers a variety of meals and snacks for patients and visitors. It's located on the ground floor of the hospital."
+      ]
+    },
+    {
+      "tag": "discharge_process",
+      "patterns": [
+        "What's the discharge process?",
+        "Leaving the hospital",
+        "Discharge instructions",
+        "How do I check out?"
+      ],
+      "responses": [
+        "When you're ready to be discharged, a nurse will provide you with instructions and any necessary paperwork. You'll also receive information on post-discharge care."
+      ]
+    },
+    {
+      "tag": "medical_insurance",
+      "patterns": [
+        "Can I use my medical insurance?",
+        "Insurance coverage",
+        "What insurance plans are accepted here?",
+        "Will my insurance cover the expenses?"
+      ],
+      "responses": [
+        "Yes, we accept a variety of medical insurance plans. To assist you further, please provide the name of your insurance provider and plan details."
+      ]
+    },
+    {
+      "tag": "donation",
+      "patterns": [
+        "Can I make a donation to the hospital?",
+        "Donation options",
+        "Support the hospital",
+        "How can I contribute?"
+      ],
+      "responses": [
+        "We greatly appreciate your willingness to support our hospital. You can make a donation by visiting our website and selecting the 'Donation' section."
+      ]
+    },
+    {
+      "tag": "medical_staff",
+      "patterns": [
+        "Tell me about the medical staff",
+        "Doctor qualifications",
+        "Who are the physicians here?",
+        "Are the doctors experienced?"
+      ],
+      "responses": [
+        "Our medical staff includes highly qualified doctors with expertise in various specialties. They are dedicated to providing the best possible care for our patients."
+      ]
+    },
+    {
+      "tag": "patient_privacy",
+      "patterns": [
+        "How is patient privacy ensured?",
+        "Protecting patient information",
+        "Privacy measures",
+        "Is my medical data secure?"
+      ],
+      "responses": [
+        "Patient privacy is of utmost importance to us. We adhere to strict data protection guidelines and have advanced security measures in place to safeguard your medical information."
+      ]
+    },
+    {
+      "tag": "covid_vaccine",
+      "patterns": [
+        "Can I get the COVID-19 vaccine here?",
+        "COVID vaccination",
+        "Is the vaccine available?",
+        "Where can I schedule a vaccine appointment?"
+      ],
+      "responses": [
+        "Yes, we offer COVID-19 vaccinations to eligible individuals. You can schedule a vaccine appointment through our online booking system."
+      ]
+    },
+    {
+      "tag": "support_groups",
+      "patterns": [
+        "Are there support groups available?",
+        "Counseling services",
+        "Where can I find emotional support?",
+        "Are there therapy sessions?"
+      ],
+      "responses": [
+        "We provide various support groups and counseling services for patients and their families. These sessions offer emotional support and guidance."
+      ]
+    },
+    {
+      "tag": "technology_services",
+      "patterns": [
+        "What technology services are available?",
+        "Hospital technology",
+        "Are there online consultations?",
+        "Can I consult a doctor remotely?"
+      ],
+      "responses": [
+        "We offer telemedicine services, allowing you to consult with doctors remotely. Additionally, our patient portal enables you to access medical records and schedule appointments online."
+      ]
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": [
+        "What's the emergency contact number?",
+        "Emergency hotline",
+        "Need urgent help",
+        "Who do I call in an emergency?"
+      ],
+      "responses": [
+        "In case of emergency, please dial our 24/7 emergency contact number: [Emergency Number]. Our medical team is ready to assist you."
+      ]
+    },
+    {
+      "tag": "appointment_booking",
+      "patterns": [
+        "How do I book a medical appointment?",
+        "Schedule a doctor's appointment",
+        "Appointment availability",
+        "Can I book an appointment online?"
+      ],
+      "responses": [
+        "Booking an appointment is easy. You can either call our appointment hotline or use our online booking system to choose a suitable date and time."
+      ]
+    },
+    {
+      "tag": "patient_records",
+      "patterns": [
+        "How can I access my medical records?",
+        "View my health history",
+        "Patient information",
+        "Is there a patient portal?"
+      ],
+      "responses": [
+        "Our patient portal allows you to access your medical records securely. You can view test results, appointment history, and more by logging in with your credentials."
+      ]
+    },
+    {
+      "tag": "visiting_hours",
+      "patterns": [
+        "What are the visiting hours?",
+        "Hospital visit timings",
+        "When can I visit a patient?",
+        "Are there specific visiting hours?"
+      ],
+      "responses": [
+        "Visiting hours are [Visiting Hours]. We encourage family and friends to visit during these times to support our patients' recovery."
+      ]
+    },
+    {
+      "tag": "billing_info",
+      "patterns": [
+        "How can I inquire about my bill?",
+        "Billing details",
+        "Payment information",
+        "Is there a billing department?"
+      ],
+      "responses": [
+        "For billing inquiries, please contact our billing department at [Billing Contact Number] or visit the billing office located on [Billing Office Location]."
+      ]
+    },
+    {
+      "tag": "surgery_preparation",
+      "patterns": [
+        "What should I do before surgery?",
+        "Preparing for surgery",
+        "Surgery guidelines",
+        "How to get ready for an operation?"
+      ],
+      "responses": [
+        "Before your surgery, our medical team will provide you with specific instructions to follow. These instructions may include fasting, medication guidelines, and other preparations."
+      ]
+    },
+    {
+      "tag": "rehabilitation_services",
+      "patterns": [
+        "Are rehabilitation services available?",
+        "Physical therapy",
+        "Occupational therapy",
+        "Do you offer post-surgery rehab?"
+      ],
+      "responses": [
+        "Yes, we provide comprehensive rehabilitation services, including physical therapy and occupational therapy. These services are designed to help patients recover and regain their functionality."
+      ]
+    },
+    {
+      "tag": "second_opinion",
+      "patterns": [
+        "Can I get a second medical opinion?",
+        "Expert consultation",
+        "Seeking another doctor's advice",
+        "Is a second opinion recommended?"
+      ],
+      "responses": [
+        "Absolutely, seeking a second medical opinion is a valuable decision. If you'd like a second opinion, our team can arrange a consultation with another specialist."
+      ]
+    },
+    {
+      "tag": "hospital_facilities",
+      "patterns": [
+        "What facilities does the hospital have?",
+        "Amenities",
+        "Hospital services",
+        "Are there private rooms available?"
+      ],
+      "responses": [
+        "Our hospital offers a range of facilities, including private rooms, advanced diagnostic equipment, modern operating theaters, and a dedicated emergency department."
+      ]
+    },
+    {
+      "tag": "waiting_times",
+      "patterns": [
+        "How long are the waiting times?",
+        "Wait for a doctor",
+        "Time to see a physician",
+        "Are there long queues?"
+      ],
+      "responses": [
+        "We strive to keep waiting times as minimal as possible. However, wait times can vary based on the patient load and the nature of medical cases. Your comfort is important to us."
+      ]
+    },
+    {
+      "tag": "insurance_info",
+      "patterns": [
+        "Which insurance providers are accepted here?",
+        "Does the hospital accept [Insurance Provider] insurance?",
+        "Insurance coverage options",
+        "Is [Insurance Provider] insurance valid?"
+      ],
+      "responses": [
+        "We accept a wide range of insurance providers, including [Insurance Provider], [Another Insurance Provider], and [Yet Another Insurance Provider]. Feel free to provide your insurance details for confirmation."
+      ]
+    },
+    {
+      "tag": "childcare_services",
+      "patterns": [
+        "Are childcare services available while I'm at the hospital?",
+        "Childcare facilities",
+        "Can I bring my child to the hospital?",
+        "Is there a play area for kids?"
+      ],
+      "responses": [
+        "We understand the importance of childcare. Our hospital provides dedicated play areas for kids and offers childcare services for patients who need to visit us."
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Do you offer language support for non-English speakers?",
+        "Translation services",
+        "Can I communicate in my language?",
+        "Are interpreters available?"
+      ],
+      "responses": [
+        "Absolutely, we have language support services to assist non-English speakers. Our team includes interpreters who can help you communicate effectively with our medical staff."
+      ]
+    },
+    {
+      "tag": "family_accommodation",
+      "patterns": [
+        "Is accommodation available for family members?",
+        "Staying with a patient",
+        "Can family stay overnight?",
+        "Do you offer lodging for relatives?"
+      ],
+      "responses": [
+        "We provide comfortable accommodation options for family members who wish to stay close to their loved ones. Overnight stays and amenities are available upon request."
+      ]
+    },
+    {
+      "tag": "volunteer_opportunities",
+      "patterns": [
+        "Can I volunteer at the hospital?",
+        "Volunteer roles",
+        "How can I contribute as a volunteer?",
+        "Are there volunteer programs?"
+      ],
+      "responses": [
+        "We welcome volunteers who want to make a difference. Our volunteer programs offer opportunities to support patients, assist staff, and engage with the community."
+      ]
+    },
+    {
+      "tag": "mental_health_services",
+      "patterns": [
+        "Are mental health services provided?",
+        "Counseling support",
+        "Do you offer therapy for emotional health?",
+        "Is there a psychiatrist available?"
+      ],
+      "responses": [
+        "We prioritize mental well-being. Our hospital offers mental health services, including therapy and consultations with experienced psychiatrists."
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "What advanced medical equipment do you have?",
+        "Technology in the hospital",
+        "Are there specialized medical devices?",
+        "Tell me about your diagnostic tools."
+      ],
+      "responses": [
+        "Our hospital is equipped with state-of-the-art medical technology, including [Advanced Medical Device 1], [Advanced Medical Device 2], and [Advanced Medical Device 3], ensuring accurate diagnoses and effective treatments."
+      ]
+    },
+    {
+      "tag": "patient_feedback",
+      "patterns": [
+        "How can I provide feedback about my experience?",
+        "Share my feedback",
+        "Is there a patient survey?",
+        "Can I express my thoughts about the hospital?"
+      ],
+      "responses": [
+        "We value your feedback as it helps us improve. You can provide feedback through our online survey or speak to our patient relations team during your visit."
+      ]
+    },
+    {
+      "tag": "research_partnerships",
+      "patterns": [
+        "Are there research partnerships with medical institutions?",
+        "Collaborative research",
+        "Does the hospital engage in medical research?",
+        "Tell me about your research initiatives."
+      ],
+      "responses": [
+        "Yes, we collaborate with renowned medical institutions for research initiatives. Our hospital actively participates in medical research to advance healthcare practices."
+      ]
+    },
+    {
+      "tag": "patient_support",
+      "patterns": [
+        "What support is available for patients?",
+        "Patient assistance",
+        "Do you provide emotional support?",
+        "Are there support groups?"
+      ],
+      "responses": [
+        "We prioritize patient well-being. Our hospital offers emotional support, patient education, and support groups to ensure a holistic approach to healthcare."
+      ]
+    }    
+  ]
+}
+
